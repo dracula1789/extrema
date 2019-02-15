@@ -1,3 +1,5 @@
+# See README.md for documentation
+
 def find_maxima(array):
     """Returns the positions of the maximum values in the array
     array.
