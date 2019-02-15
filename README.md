@@ -1,4 +1,4 @@
-# extrema
+# Extrema
 
-This is an important project.
-It will be used for exercises.
+This is an very important project.
+It will be used for exercises and to demonstrate useful feature.
