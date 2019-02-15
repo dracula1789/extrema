@@ -16,3 +16,13 @@ def find_maxima(arr):
             ans.append(i)
     return ans
 
+examples = [
+    [],
+    [1, 2, 1],
+    [2, 0, 0, -2, 2],
+]
+
+def test_find_maxima():
+    for example in examples:
+        ans = find_maxima(example)
+        print(example, '→', ans)
