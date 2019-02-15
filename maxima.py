@@ -8,8 +8,9 @@ def find_maxima(arr):
     find_maxima([2, 0, 0, -2, 2]) → [0, 4]
     """
     ans = []
-    for i in range(len(arr)):
+    N = len(arr)
+    for i in range(N):
         if (arr[i] > arr[i-1] and
-            (i >= len(arr) or arr[i] > arr[i+1])):
+            (i >= N or arr[i] > arr[i+1])):
             ans.append(i)
     return ans
