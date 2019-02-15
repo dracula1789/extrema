@@ -1,6 +1,6 @@
-def find_maxima(arr):
+def find_maxima(array):
     """Returns the positions of the maximum values in the array
-    arr.
+    array.
 
     Example:
     find_maxima([]) → []
@@ -8,9 +8,9 @@ def find_maxima(arr):
     find_maxima([2, 0, 0, -2, 2]) → [0, 4]
     """
     ans = []
-    N = len(arr)
+    N = len(array)
     for i in range(N):
-        if (arr[i] > arr[i-1] and
-            (i >= N or arr[i] > arr[i+1])):
+        if (array[i] > array[i-1] and
+            (i >= N or array[i] > array[i+1])):
             ans.append(i)
     return ans
