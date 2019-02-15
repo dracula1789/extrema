@@ -1,7 +1,7 @@
 # lbasdfasdf sadfasdf
 
 def find_maxima(arr):
-    """Returns the positions of the maximum values in the array
+    """Returns the positions of the local maximum values in the array
     arr.
 
     Example:
